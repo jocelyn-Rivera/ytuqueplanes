@@ -1,32 +1,26 @@
-.seguridad{
-	/* la propiedad background permite colocar un color o imagen de fondo */
-	background: url("img/viaje-seguro.jpg") no-repeat  center;
-	background: cover;
-	padding-top: 3em;
-	padding-bottom: 20em;
-	
-
-	margin-top: 3em;
-
-}
-.logotipo{
-	margin-bottom: :-1em;
-	padding-bottom: : -2em;
-
-}
 
 .redes-sociales{
+	margin-top: 3em;
 	text-align: right;
+	margin-bottom: 1em;
 }
-
+.icono{
+	position: absolute;
+	left: 350px;
+	top: 80px;
+	z-index: 2;
+}	
+	
+ 	
 .menu{
 	padding: 0px;
 	margin: 0px;
 	text-align: center;
-	background: red;
-	padding-top: 5px; 
-	padding-bottom: 5px;
+	background: #D7280F;
+	padding-top: 1em; 
+	padding-bottom: 1em;
 }
+
 .menu li{
 	list-style: none;
 	display: inline;
@@ -75,19 +69,34 @@ text-align: center;
 	color:#fff;
 	text-align: center;
 	font-family: "Arial";
-
+	padding: 3px;
+	margin-left: 5em;
+	margin-right: 5em;
+	border-radius: 5PX;
 }
 .naranja{
 	background: #DF7401;
 	color:#fff;
 	text-align: center;
 	font-family: "Arial";
+	padding: 3px;
+	margin-left: 5em;
+	margin-right: 5em;
+	border-radius: 5PX;
 }
 .verde{
 	background:#04B404;
 	color:#fff;
 	text-align: center;
 	font-family: "Arial";
+	padding: 3px;
+	margin-left: 5em;
+	margin-right: 5em;
+	border-radius: 5PX;
+}
+.iconos img{
+	width: 150px;
+	height: 150px;
 }
 .promociones h4{
 	text-align: center;
@@ -116,4 +125,56 @@ text-align: center;
 	margin-left: 2em;
 }
 
+.seguridad{
+	background: url("img/viaje-seguro.jpg") no-repeat  center;
+	background-size: cover;
+	padding-bottom: 10em;
+	margin-top: 2em;
+}
 
+
+.footer1{
+	background: url("img/bg_footer.png")no-repeat  center;
+	width: 100%;
+	height: 53px;
+	margin-top: 2em;
+	
+
+}
+footer{
+	background: #D7280F;
+	margin-bottom:5em; 
+	margin-top: 0px;
+}
+	
+footer ul{
+padding: 0px;
+margin: 0px;
+margin-bottom:5em;
+}
+footer li{
+list-style: none;
+color:#fff;
+}
+
+footer ul,li a{
+color:#fff;
+margin-left:2em; 
+ 
+}
+footer h5{
+color:#fff;
+margin-left:2em; 
+font-size: 20px;
+ 
+}
+.terminos{
+	text-align: right;
+	margin-right: 2em;
+}
+.terminos p{
+	margin-top: 1em;
+	text-align:right;
+	color: #fff;
+}
+	
